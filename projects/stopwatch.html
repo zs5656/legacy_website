@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="/images/logo2.jpg">
+<link rel="stylesheet" href="/style/style.css">
+<link rel="stylesheet" href="/style/style2.css">
+<title>Stopwatch</title>
+<script src="/scripts/script.js"></script>
+<script src="/scripts/script2.js"></script>
+
+<style>
+span.a {
+  color: red;
+  font-size: 24px;
+  font-family: "tah8", 'Arial', sans-serif;
+}
+
+span.b {
+  color: white;
+  font-size: 24px;
+  font-family: "tah8", 'Arial', sans-serif;
+}
+
+h2 {
+  color: red;
+  font-family: "pixf";
+  font-size: 500%;
+  font-weight: bolder;
+}
+
+div.a {
+  text-align: center;
+  padding: 0px 10px;
+  margin-left: 100px;
+}
+</style>
+<script>
+function onload() {
+  alert('This stopwatch does not work.\nVisit "https://medium.com/@olinations/an-accurate-vanilla-js-stopwatch-script-56ceb5c6f45b" for one that does.')
+}
+
+</script>
+</head>
+<body onload="onload()">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="left">
+  <iframe src="/side.html"></iframe>
+</div>
+
+<div class="main">
+<button id="buttona" onclick="start()">Start</button><br>
+<button id="buttonb" onclick="pause()">Pause</button><br>
+<button id="buttonb" onclick="reset()">Stop</button>
+<br>
+</div>
+
+<div class="a">
+<h2 class="a" id="stopw"></h2>
+</div>
+</body>
+</html>

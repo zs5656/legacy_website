@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="/images/logo2.jpg">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/style2.css">
+  <script language="JavaScript" type="text/javascript" src="/scripts/script.js"></script>
+  <title>Javascript tests</title>
+ 
+</head>
+
+<style>
+p.a {
+  font-family: "pixf";
+  font-size: 500%;
+  font-weight: bolder;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 500%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+}
+</style>
+
+<!-- side navigation bar -->
+<body>
+
+<div class="left">
+  <iframe src="/side.html"></iframe>
+</div>
+
+<div class="main">
+  <p>Click these links to see the different parts of the page</p>
+  <a class="tabbtn" href="#1">Image toggle #1</a> &nbsp;
+  <a class="tabbtn" href="#2">Operators on Variables</a>  &nbsp;
+  <a class="tabbtn" href="#3">Image toggle #2</a> &nbsp;
+  <a class="tabbtn" href="#4">Stopwatch</a>  &nbsp;
+  <!--<a class="tabbtn" href="#5">Quote</a> &nbsp; -->
+  <a class="tabbtn" href="#6">Article generator</a> &nbsp;
+
+  <hr/>
+  <!-- scw logo toggle -->
+  <a id="1">
+  <p>Javascript changing img attribute values</p>
+  <button onclick="Dark()" id="b1">Toggle</button>
+  <img id="myImage" src="https://scwco.cf/images/scw_bbg.jpg" style="width:100px"><br>
+  <button onclick="window.print()" id="b1">Print this page</button><br><br>
+  </a>
+
+  <hr/>
+
+  <a id="2">
+  <p>Operators on variables</p>
+  <p id='demo' class="a"></p>
+  <button onclick="Add()" id="button3">Add</button>
+  <button onclick="Subtract()" id="button6">Subtract</button>
+  <button onclick="Multiply()" id="button7">Multiply</button>
+  <button onclick="Divide()" id="button8">Divide</button>
+  <button onclick="Modulus()" id="button9">Modulus</button>
+  </a>
+
+  <hr/>
+
+  <a id="3">
+  <p>Javascript removing/revealing an image using "document.getElementById"</p>
+  <img id="demo5" width="200px" src="https://cdn.discordapp.com/avatars/712592726549331991/5d9fe7a819c01003c0d1b653acf0412c.png?size=256"></img>
+  <br>
+  <button id="b4a" onclick="Hide()">Toggle</button><br>
+  </a>
+
+  <!--
+  <a id="5">
+  <h1 class="quote">"Let's just kill every goat in existence, or at least in visible view"</h1>
+  <p class="italic">CSI MC 2020</p>
+  </a>
+  -->
+  <hr>
+  <a id="6">
+  <button onclick="Input()" id="button10">Generate</button>
+  <table border="1" cellpadding="20" cellspacing="0" style="height=300px;">
+    <tr>
+      <td class="top" id="article"></td>
+    </tr>
+  </table>
+  </a>
+</div> 
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+.tabbtn:hover{background-color: blue; color: white;}   
+.tabbtn{background-color: black; color: rgb(51, 125, 255); text-decoration: none;}
+
+.tabbtn2:hover{background-color: purple; color: white;}   
+.tabbtn2{background-color: black; color: rgb(255, 114, 255); text-decoration: none;}
+
+
+.buttonblank{background-color:none; color: none; border: none; text-decoration: none}
+.buttonblankhover{background-color:none; color: none; border: none; text-decoration: none}
+
+.italic {
+  font-style: italic;
+  font-size: 100;
+  font-family: "Times New Roman", Times, serif;
+}
+
+td.top {
+  vertical-align: top;
+  text-align: center;
+  width: 50%;
+}
+
+td.middle {
+  vertical-align: middle;
+  text-align: center;
+  width: 50%;
+}
+
+article::selection {
+  background-color: blue; color: white;
+}
+
+::selection {
+  background-color: orange; color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black; color: white;
+  }
+}
+
+@font-face {
+  font-family: "tah8";
+  src: url(/fonts/tahoma-8px.ttf);
+}
+
+@font-face {
+  font-family: "pixf";
+  src: url(/fonts/torture.ttf);
+}
+
+@font-face {
+  font-family: "7seg3";
+  src: url(/fonts/torture.ttf);
+}
+
+@font-face {
+  font-family: "DIN";
+  src: url(/fonts/DINMittelschriftStd.otf);
+}
+
+canvas {
+  border: 2px dotted white;
+}

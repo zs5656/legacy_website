@@ -1,0 +1,81 @@
+html {
+  background-color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.message {
+  font-family: arial;
+  font-size: 14px;
+  display: block;
+  color: rgb(232, 230, 227);
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 4px;
+  background-image: -webkit-linear-gradient(top, rgb(43, 47, 49), rgb(66, 17, 116));
+  -webkit-border-radius: 8px;
+  border-radius: 8px;    
+  background-color: initial;
+  box-shadow: rgb(43, 47, 49) 0px 0px 30px 0px;
+}
+
+.message2 {
+  font-family: DIN;
+  display: block;
+  color: #FFFFFF;
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+
+h1#size200 {
+  font-size: 200%;
+}
+
+h1#size400 {
+  font-size: 400%;
+}
+
+h1#size800 {
+  font-size: 2000%;
+}
+
+
+a:hover{
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  margin: auto;
+  padding: 4px;
+  text-decoration: none;
+  text-align: center;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+}
+
+a {
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  margin: auto;
+  padding: 4px;
+  text-decoration: none;
+  text-align: center;
+  background-color: black; 
+  color: red;
+  border-radius: 8px;
+}

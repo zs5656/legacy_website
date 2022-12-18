@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="/images/logo2.jpg">
+<link rel="stylesheet" href="/style/style.css">
+<link rel="stylesheet" href="/style/style2.css">
+<title>Clock</title>
+<script src="/scripts/script.js"></script>
+
+<style>
+span.a {
+  color: red;
+  font-size: 24px;
+  font-family: "tah8", 'Arial', sans-serif;
+}
+
+h1.clock {
+  color: red;
+  font-size: 500%;
+  text-align: center;
+  font-family: "pixf";
+}
+
+h1.tz {
+  color: red;
+  font-size: 375%;
+  text-align: center;
+  font-family: "pixf";
+}
+
+</style>
+
+  <title>Countdown to 2022</title>
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<div class="left">
+  <iframe src="/side.html"></iframe>
+</div>
+
+<div class="main">
+<body onload="startTime()">
+<h1 class="clock" id="clock"></h1>
+<h1 class="tz" id="timezone"></h1>
+<h1 class="tz" id="date"></h1>
+</div>
+</body>
+</html>

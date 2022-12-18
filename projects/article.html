@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="/images/logo2.jpg">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/style2.css">
+  <script language="JavaScript" type="text/javascript" src="/scripts/script.js"></script>
+  <title>Article generator</title>
+</head>
+
+<style>
+p.a {
+  font-family: "7seg3";
+  font-size: 500%;
+  font-weight: bolder;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 500%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+</style>
+
+<!-- side navigation bar -->
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="left">
+  <iframe src="/side.html"></iframe>
+</div>
+
+<div class="main">
+  <button onclick="Article()" id="button10">Insert article</button>
+  <h1 id="title"></h1>
+  <p id="para1"></p>
+  <img id="img1" src="/images/blank1.png"></img>
+  <p id="para2"></p>
+  <img id="img2" src="/images/blank1.png"></img>
+  <p id="para3"></p>
+  <h2 id="author"></h2>
+  <p id="time"></p>
+  <br>
+  <button onclick="window.print()">Print this page</button>
+</div> 
+
+</body>
+</html>

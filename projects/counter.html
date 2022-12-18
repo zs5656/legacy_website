@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="/images/logo2.jpg">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/style2.css">
+  <script language="JavaScript" type="text/javascript" src="/scripts/script.js"></script>
+  <title>Javascript tests</title>
+ 
+</head>
+
+<style>
+p.a {
+  font-family: "pixf";
+  font-size: 500%;
+  font-weight: bolder;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 500%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+div.a {
+  text-align: center;
+  padding: 0px 10px;
+  margin-left: 100px;
+}
+</style>
+<script>
+var x = 0;
+document.getElementById("demo").innerHTML = x;
+
+function CountUp() {
+  x++;
+  document.getElementById("demo").innerHTML = x;
+}
+
+function CountDown() {
+  x--;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+<!-- side navigation bar -->
+<body>
+<div class="left">
+  <iframe src="/side.html"></iframe>
+</div>
+
+<div class="main">
+  <div class="a">
+    <p>Counter</p>
+    <button onclick="CountUp()" id="b1">count up</button>
+    <button onclick="CountDown()" id="b2">count down</button>
+    <p id='demo' class="a"></p>
+  </div>
+</div> 
+
+</body>
+</html>
