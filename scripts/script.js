@@ -171,19 +171,6 @@ function checkTz(a) {
   }
   return a;
 }
- 
-function swt76() {document.getElementById("swing").src = "/images/swings/1976.svg"; document.getElementById("swd").innerHTML = "1976"}
-function swt80() {document.getElementById("swing").src = "/images/swings/1980.svg"; document.getElementById("swd").innerHTML = "1980"}
-function swt84() {document.getElementById("swing").src = "/images/swings/1984.svg"; document.getElementById("swd").innerHTML = "1984"}
-function swt88() {document.getElementById("swing").src = "/images/swings/1988.svg"; document.getElementById("swd").innerHTML = "1988"}
-function swt92() {document.getElementById("swing").src = "/images/swings/1992.svg"; document.getElementById("swd").innerHTML = "1992"}
-function swt96() {document.getElementById("swing").src = "/images/swings/1996.svg"; document.getElementById("swd").innerHTML = "1996"}
-function swt00() {document.getElementById("swing").src = "/images/swings/2000.svg"; document.getElementById("swd").innerHTML = "2000"}
-function swt04() {document.getElementById("swing").src = "/images/swings/2004.svg"; document.getElementById("swd").innerHTML = "2004"}
-function swt08() {document.getElementById("swing").src = "/images/swings/2008.svg"; document.getElementById("swd").innerHTML = "2008"}
-function swt12() {document.getElementById("swing").src = "/images/swings/2012.svg"; document.getElementById("swd").innerHTML = "2012"}
-function swt16() {document.getElementById("swing").src = "/images/swings/2016.svg"; document.getElementById("swd").innerHTML = "2016"}
-function swt20() {document.getElementById("swing").src = "/images/swings/2020.svg"; document.getElementById("swd").innerHTML = "2020"}
 
 var b = 1;  
 var v = 0;

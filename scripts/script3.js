@@ -57,4 +57,3 @@
 
     stopw.innerHTML = hours + ":" + minutes + ":" + seconds + ":" + milliseconds;
   }
-}
